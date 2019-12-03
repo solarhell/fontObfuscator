@@ -200,6 +200,7 @@ def obfuscate_plus(plain_text, filename: str, only_ttf: bool, target_path: str =
 
     html_entities = []
 
+    # 理论上这里还可以再打散一次顺序
     for index, plain in enumerate(plain_text):
         # print('index', index, 'plain', plain)
 
