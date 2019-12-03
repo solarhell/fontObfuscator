@@ -13,6 +13,7 @@
 如需使用阿里云oss，请修改 `config.py`。
 
 ![showcase](test/showcase.png)
+![showcase_2](test/showcase_2.png)
 
 ## 测试
 
