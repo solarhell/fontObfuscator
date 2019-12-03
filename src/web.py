@@ -1,17 +1,13 @@
+import uuid
+
 from sanic import Sanic
 from sanic.response import json, text
 
-from src.core import obfuscate, obfuscate_plus
-
-import uuid
-
-from src.upload import upload_to_oss, delete_file
-
-from src.utils import base64_binary, get_project_root
-
 from config import BUCKET_HOST
-
+from src.core import obfuscate, obfuscate_plus
 from src.model import common_response
+from src.upload import upload_to_oss, delete_file
+from src.utils import base64_binary
 
 app = Sanic()
 

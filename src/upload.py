@@ -1,6 +1,8 @@
-import oss2
-from config import BUCKET_API_ENDPOINT, BUCKET_NAME, BUCKET_API_KEY, BUCKET_API_SECRET
 from pathlib import Path
+
+import oss2
+
+from config import BUCKET_API_ENDPOINT, BUCKET_NAME, BUCKET_API_KEY, BUCKET_API_SECRET
 
 
 def upload_to_oss(key: str, filename: str):

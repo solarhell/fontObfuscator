@@ -1,10 +1,8 @@
-from pathlib import Path
-
 import base64
 from collections import OrderedDict
+from pathlib import Path
 
 import emoji
-
 from fontTools import subset
 
 

@@ -1,13 +1,13 @@
 import random
 import traceback
-from pathlib import Path
 
-from fontTools.ttLib import TTFont
 from fontTools.fontBuilder import FontBuilder
 from fontTools.pens.ttGlyphPen import TTGlyphPen
+from fontTools.ttLib import TTFont
+
+from config import NAME_STRING
 from src.utils import str_has_whitespace, str_has_emoji, deduplicate_str, ensure_cmap_has_all_text, subset_ttf_font, \
     get_project_root
-from config import NAME_STRING
 
 root = get_project_root()
 
