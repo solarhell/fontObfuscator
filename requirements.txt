@@ -16,7 +16,7 @@ hpack==3.0.0
 httpcore==0.3.0
 httptools==0.0.13
 hyperframe==5.2.0
-idna==2.8
+idna==2.9
 jmespath==0.9.4
 lxml==4.4.2
 multidict==4.6.1
