@@ -20,7 +20,7 @@ idna==2.9
 jmespath==0.9.4
 lxml==4.4.2
 multidict==4.6.1
-oss2==2.9.0
+oss2==2.9.1
 pycryptodome==3.9.4
 pytz==2019.3
 requests==2.22.0
