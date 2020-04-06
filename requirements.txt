@@ -1,6 +1,6 @@
 aiofiles==0.4.0
 aliyun-python-sdk-core==2.13.10
-aliyun-python-sdk-core-v3==2.13.10
+aliyun-python-sdk-core-v3==2.13.11
 aliyun-python-sdk-kms==2.10.1
 appdirs==1.4.3
 Brotli==1.0.7
