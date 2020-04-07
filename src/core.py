@@ -210,7 +210,7 @@ def obfuscate_plus(plain_text, filename: str, only_ttf: bool, target_path: str =
         except KeyError:
             # 遇到基础字库不存在的字会出现这种错误
             traceback.print_exc()
-            return obfuscate_plus(filename, plain_text)
+            return obfuscate_plus(filename, plain_text, only_ttf, target_path)
 
         final_shadow_text += [shadow_cmap_name]
 
