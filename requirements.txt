@@ -22,7 +22,7 @@ lxml==4.5.0
 multidict==4.7.5
 oss2==2.10.0
 pycryptodome==3.9.7
-pytz==2019.3
+pytz==2020.1
 requests==2.23.0
 requests-async==0.6.2
 rfc3986==1.4.0
