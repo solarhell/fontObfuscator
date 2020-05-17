@@ -19,7 +19,7 @@ hyperframe==5.2.0
 idna==2.9
 jmespath==0.10.0
 lxml==4.5.0
-multidict==4.7.5
+multidict==4.7.6
 oss2==2.11.0
 pycryptodome==3.9.7
 pytz==2020.1
