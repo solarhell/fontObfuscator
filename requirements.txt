@@ -18,7 +18,7 @@ httptools==0.1.1
 hyperframe==5.2.0
 idna==2.9
 jmespath==0.10.0
-lxml==4.5.0
+lxml==4.5.1
 multidict==4.7.6
 oss2==2.11.0
 pycryptodome==3.9.7
