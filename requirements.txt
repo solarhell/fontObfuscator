@@ -27,7 +27,7 @@ requests==2.23.0
 requests-async==0.6.2
 rfc3986==1.4.0
 sanic==20.3.0
-six==1.14.0
+six==1.15.0
 ujson==2.0.3
 urllib3==1.25.9
 uvloop==0.14.0
