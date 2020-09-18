@@ -1,5 +1,7 @@
 # fontObfuscator
 
+## 欢迎加入爬虫讨论群组 https://t.me/crawler_discussion
+
 ## 简介
 
 感谢[基础字体作者](https://github.com/minjiex/kaigen-gothic)。
