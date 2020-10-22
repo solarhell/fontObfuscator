@@ -5,7 +5,7 @@ from fontTools.fontBuilder import FontBuilder
 from fontTools.pens.ttGlyphPen import TTGlyphPen
 from fontTools.ttLib import TTFont
 
-from config import NAME_STRING
+from config import NAME_STRING, BASE_FONT_FILE
 from src.utils import str_has_whitespace, str_has_emoji, deduplicate_str, ensure_cmap_has_all_text, subset_ttf_font, \
     get_project_root
 
@@ -36,7 +36,7 @@ def obfuscate(plain_text, shadow_text, filename: str, only_ttf: bool, target_pat
     if len(plain_text) != len(shadow_text):
         raise Exception('阴书的有效长度需与明文一致')
 
-    original_font = TTFont(root / 'base-font/KaiGenGothicCN-Regular.ttf')
+    original_font = TTFont(root / BASE_FONT_FILE)
     # https://github.com/fonttools/fonttools/blob/4.0.1/Lib/fontTools/fontBuilder.py#L28
 
     # <class 'dict'>: {32: 'cid00001', 33: 'cid00002', 34: 'cid00003'...}
@@ -144,7 +144,7 @@ def obfuscate_plus(plain_text, filename: str, only_ttf: bool, target_path: str =
 
     plain_text = deduplicate_str(plain_text)
 
-    original_font = TTFont(root / 'base-font/KaiGenGothicCN-Regular.ttf')
+    original_font = TTFont(root / BASE_FONT_FILE)
     # https://github.com/fonttools/fonttools/blob/4.0.1/Lib/fontTools/fontBuilder.py#L28
 
     # <class 'dict'>: {32: 'cid00001', 33: 'cid00002', 34: 'cid00003'...}

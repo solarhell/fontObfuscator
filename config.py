@@ -11,6 +11,9 @@ BUCKET_HOST = f'https://{BUCKET_NAME}.oss-{REGION}.aliyuncs.com'
 BUCKET_API_KEY = ''
 BUCKET_API_SECRET = ''
 
+# 原始字体
+BASE_FONT_FILE = 'base-font/KaiGenGothicCN-Regular.ttf'
+
 # 字体名
 FAMILY_NAME = 'MyAwesomeFont'
 STYLE_NAME = 'Regular'
