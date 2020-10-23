@@ -17,6 +17,9 @@
 ![showcase](test/showcase.png)
 ![showcase_2](test/showcase_2.png)
 
+由于`Sanic`框架使用到了`uvloop`，windows用户请参考这个链接： https://github.com/huge-success/sanic#installation
+
+
 ## 测试
 
 建议先新建一个python venv
