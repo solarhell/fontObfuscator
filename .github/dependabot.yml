@@ -1,0 +1,19 @@
+version: 2
+updates:
+- package-ecosystem: pip
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "04:00"
+    timezone: Asia/Shanghai
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: httpcore
+    versions:
+    - 0.13.0
+  - dependency-name: aliyun-python-sdk-core
+    versions:
+    - 2.13.30
+  - dependency-name: brotli
+    versions:
+    - 1.0.9
