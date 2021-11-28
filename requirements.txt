@@ -1,4 +1,4 @@
-aiofiles==0.6.0
+aiofiles==0.8.0
 aliyun-python-sdk-core==2.13.33
 aliyun-python-sdk-core-v3==2.13.32
 aliyun-python-sdk-kms==2.14.0
