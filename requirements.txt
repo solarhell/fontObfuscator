@@ -28,7 +28,7 @@ requests-async==0.6.2
 rfc3986==1.4.0
 sanic==21.3.2
 six==1.15.0
-ujson==4.0.2
+ujson==5.4.0
 urllib3==1.26.4
 uvloop==0.15.2
 websockets==8.1
