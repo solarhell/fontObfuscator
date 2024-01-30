@@ -8,7 +8,7 @@ certifi==2023.7.22
 chardet==4.0.0
 crcmod==1.7
 emoji==1.2.0
-fonttools==4.24.4
+fonttools==4.47.2
 fs==2.4.13
 h11==0.12.0
 h2==4.0.0
