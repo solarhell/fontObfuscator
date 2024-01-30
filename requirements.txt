@@ -21,7 +21,7 @@ jmespath==0.10.0
 lxml==4.6.3
 multidict==5.1.0
 oss2==2.14.0
-pycryptodome==3.10.1
+pycryptodome==3.19.1
 pytz==2021.1
 requests==2.25.1
 requests-async==0.6.2
